@@ -1,0 +1,17 @@
+{
+    "name": "Sense-Hat-Simulator",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-dashboard": "2.19.4",
+        "node-red-node-pi-sense-hat-simulator": "0.0.1",
+        "node-red-node-pusher": "0.1.0",
+        "node-red-contrib-throttle": "0.1.6"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
+    }
+}
